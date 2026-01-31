@@ -791,11 +791,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 
+  cloudProjectId: 72c0a511-0f4b-4b1f-8d9e-06e50d979ce1
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Pawnpad-main
+  organizationId: zuc16th
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 

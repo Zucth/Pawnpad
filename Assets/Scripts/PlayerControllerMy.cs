@@ -40,14 +40,14 @@ public class PlayerControllerMy : MonoBehaviour
         var targetVector = new Vector3(_input.InputVector.x, 0, _input.InputVector.y);
         var movementVector = MoveTowardTarget(targetVector);
 
-        if (!RotateTowardMouse)
-        {
-            RotateTowardMovementVector(movementVector);
-        }
-        if (RotateTowardMouse)
-        {
-            RotateFromMouseVector();
-        }
+        //if (!RotateTowardMouse) //avoid annoying non-intention hit, by remove player rotation
+        //{
+        //    RotateTowardMovementVector(movementVector);
+        //}
+        //if (RotateTowardMouse)
+        //{
+        //    RotateFromMouseVector();
+        //}
 
         if (Input.GetKeyDown(KeyCode.Mouse0)) //left mouse click for draging block, later on
         {
